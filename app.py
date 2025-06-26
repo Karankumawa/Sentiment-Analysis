@@ -8,8 +8,8 @@ import re
 nltk.download('stopwords')
 
 # Load model and vectorizer
-model = joblib.load('sentiment_model.pk1')
-vectorizer = joblib.load('vectorizer.pk1')  # Make sure this is a TfidfVectorizer, not overwritten
+model = joblib.load("sentiment_model.pkl")
+vectorizer = joblib.load('vectorizer.pkl')  # Make sure this is a TfidfVectorizer, not overwritten
 
 # English stopwords
 stop_words = set(stopwords.words('english'))

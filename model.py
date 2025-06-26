@@ -71,6 +71,6 @@ print(cm)
 print("-----------classification report--------------")
 print(cr)
 
-joblib.dump(model,"sentiment_model.pk1")
-joblib.dump(vectorizer,"vectorizer.pk1")
+joblib.dump(model,"sentiment_model.pkl")
+joblib.dump(vectorizer,"vectorizer.pkl")
 print("model and vectorizer is saved")
